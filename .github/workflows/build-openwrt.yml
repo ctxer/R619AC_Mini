@@ -9,9 +9,7 @@
 name: Build OpenWrt R619AC
 
 on:
-  push:
-    branches: 
-      - master
+  workflow_dispatch:
   schedule:
     - cron: 30 3 */5 * *
 #          分 时 日 月 周5
